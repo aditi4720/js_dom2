@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #0f2027; /* fallback for old browsers */
+    background: linear-gradient(to right,#2c5364, #203a43, #0f2027);
+}
+h1{
+    font-size: 65px;
+    color: whitesmoke;
+    padding: 1rem;
+}
+.count_display{
+    height: 330px;
+    width: 40%;
+    background-color: lightpink;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding: 0.5rem;
+    width: 60%;
+    border: 2px solid black;
+    background-color: lavender;
+    font-size: 1rem;
+}
+.counter{
+    height: 212px;
+    width: 64%;
+    background-color: lightcoral;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
