@@ -10,14 +10,16 @@
   <body>
     <h1>Welcome</h1>
     <div class="container">
-      <form action="">
-        <input type="text" id="name" placeholder="Enter Name" class="form_field">
-        <input type="email" id="email" placeholder="Enter Email id" class="form_field">
-        <input type="password" id="pass" placeholder="Enter password" class="form_field">
+      <form id="regn" method="POST" action="" onsubmit="return validateForm()">
+
+        <input type="text" name="name" value="" placeholder="Enter Name" class="form_field">
+        <input type="email" name="email" value="" placeholder="Enter Email id" class="form_field">
+        <input type="password" name="pass" value="" placeholder="Enter password" class="form_field">
 
         <button class="subBtn">Sign Up</button>
+
       </form>
-      
     </div>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
